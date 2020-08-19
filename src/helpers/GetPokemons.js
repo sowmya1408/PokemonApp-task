@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const GetPokemons = async (url) => {
     const queryToUrl = await fetch(url);
